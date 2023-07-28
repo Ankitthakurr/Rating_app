@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rating_App</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+</head>
+
+<body>
+<div class="main">
+    <nav>
+        <h1>Feedback App <span>(v 1.0)</span></h1>
+    </nav>
+    <div class="container_one">
+        <h1>Give Rating</h1>
+        <ul class="ullist">
+            <li class="list one">1</li>
+            <li class="list two">2</li>
+            <li class="list three">3</li>
+            <li class="list four">4</li>
+            <li class="list five">5</li>
+        </ul>
+        <form class="form">
+            <input required maxlength="20" type="text" placeholder="give review" id="input">
+            <button  type="submit" id="btn">Save</button>
+        </form>
+    </div>
+    <div class="review">
+        <p id="review">Review : 0</p>
+        <p id="average">Rating Avg. : 0.00</p>
+    </div>
+    <div class="dataDiv ">
+       
+    </div>
+</div>
+    <script src="main.js"></script>
+</body>
+
+</html>
